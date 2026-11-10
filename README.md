@@ -32,7 +32,7 @@ REST API для работы с базой знаний вашего AI-сайт
 Своя шапка, подвал, первый экран, карточка и страница объекта для сайта на
 платформе (Community Edition): Vue 3 + Tailwind, сборка в zip, загрузка в админке.
 
-- **[Обзор и быстрый старт](docs/themes/README.md)**
+- **[Обзор и быстрый старт](docs/themes/README.md)** — SDK: `npm i -D @sitebill/theme-sdk` ([npm](https://www.npmjs.com/package/@sitebill/theme-sdk)), стартовая тема: [sitebill-theme-starter](https://github.com/Sitebill/sitebill-theme-starter)
 - **[Слоты и данные](docs/themes/slots-and-data.md)** — какие части сайта заменяет тема и что получает
 - **[API сайта и компоненты](docs/themes/host-api.md)** — `useHost()`, компоненты `Sb*`, стили
 - **[Пакет, проверка и загрузка](docs/themes/packaging.md)** — `manifest.json`, CLI, песочница, ограничения

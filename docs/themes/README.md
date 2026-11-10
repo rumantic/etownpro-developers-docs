@@ -11,6 +11,14 @@
 в админке сайта. Пересобирать сайт не нужно, и тема переживает обновления
 платформы.
 
+## Где что лежит
+
+| Что | Где |
+|---|---|
+| SDK (npm) | [@sitebill/theme-sdk](https://www.npmjs.com/package/@sitebill/theme-sdk) · исходники [Sitebill/sitebill-theme-sdk](https://github.com/Sitebill/sitebill-theme-sdk) |
+| Стартовая тема | [Sitebill/sitebill-theme-starter](https://github.com/Sitebill/sitebill-theme-starter) |
+| Платформа | [sitebill.ru](https://www.sitebill.ru/) (RU) · [sitebillcms.com](https://sitebillcms.com/) (EN) |
+
 ## Документы
 
 | Документ | О чём |
@@ -23,8 +31,15 @@
 
 Нужен Node 22.12 или новее.
 
-1. Возьмите стартовый шаблон: это стандартная тема сайта, переписанная на SDK.
-   В ней уже есть шапка, подвал, первый экран, карточка и страница объекта.
+1. Возьмите стартовый шаблон — репозиторий
+   [Sitebill/sitebill-theme-starter](https://github.com/Sitebill/sitebill-theme-starter)
+   (кнопка **Use this template** или `git clone`). Это стандартная тема сайта,
+   переписанная на SDK: шапка, подвал, первый экран, карточка и страница объекта.
+   SDK ставится из npm как обычная зависимость (в шаблоне она уже прописана):
+
+   ```bash
+   npm install --save-dev @sitebill/theme-sdk
+   ```
 2. В `manifest.json` задайте `id` (латиница, цифры, дефис), `name` и `version`.
 3. Установите зависимости и запустите песочницу:
 
