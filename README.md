@@ -37,6 +37,17 @@ REST API для работы с базой знаний вашего AI-сайт
 - **[API сайта и компоненты](docs/themes/host-api.md)** — `useHost()`, компоненты `Sb*`, стили
 - **[Пакет, проверка и загрузка](docs/themes/packaging.md)** — `manifest.json`, CLI, песочница, ограничения
 
+### 🧩 Устанавливаемые приложения (App SDK)
+
+Свои таблицы, GraphQL, REST, страницы админки и виджеты сайта без пересборки
+платформы (Community Edition): PHP + Vue 3, пакет `.sbapp`, загрузка в админке.
+
+- **[Обзор и быстрый старт](docs/apps/README.md)** — SDK: `sitebill/app-sdk` (Composer) и `@sitebill/app-sdk` (npm), стартовое приложение: [sitebill-app-starter](https://github.com/Sitebill/sitebill-app-starter)
+- **[Пакет и манифест](docs/apps/package.md)** — состав, `manifest.json`, БД, GraphQL, расписание
+- **[Host API](docs/apps/host-api.md)** — PHP `Host::…` и объект `host` в браузере
+- **[Слоты и виджеты](docs/apps/slots-and-widgets.md)** — куда встраивается приложение
+- **[CLI и публикация](docs/apps/cli.md)** — `sitebill-app check | pack | dev`, установка
+
 ## Руководства пользователя
 
 Практические руководства по функциям платформы — «как этим пользоваться»,
